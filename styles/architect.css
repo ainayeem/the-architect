@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+@media only screen and (min-width: 992px) {
+  /* header section */
+  .header {
+    background-color: #fff4e7;
+    padding-top: 50px;
+  }
+  .head {
+    width: 78%;
+    margin: 0 auto;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar h1 {
+    font-weight: 700;
+    font-size: 45px;
+  }
+  .list-item {
+    display: flex;
+
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /*  */
+  .banner-info {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    text-align: center;
+  }
+  .banner-info h1 {
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 30px;
+  }
+  .banner-info button {
+    margin-top: 32px;
+    margin-bottom: 50px;
+  }
+  .btn {
+    color: white;
+    background-color: #ff900e;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .btn:hover {
+    background-color: #fd5d00;
+  }
+  .banner-info img {
+    margin-bottom: 45px;
+  }
+
+  /*  */
+
+  .quick-list {
+    padding-top: 85px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 130px;
+  }
+  .list-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    width: 55%;
+  }
+  .list-img img {
+    height: 340px;
+    width: 340px;
+    border-radius: 8px;
+  }
+  .list-info {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 75px;
+  }
+  .list-info h2 {
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 45px;
+  }
+  .list-info p {
+    margin-bottom: 30px;
+  }
+  .list-info h2 span:nth-child(1) {
+    color: #727272;
+  }
+  .list-info h2 span:nth-child(2n) {
+    color: #ff900e;
+  }
+  /*  */
+
+  .features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    width: 78%;
+    margin: 0 auto;
+  }
+  .feature-img {
+    position: relative;
+  }
+
+  .btn-2 button {
+    color: white;
+    background-color: #ff900e;
+    border: none;
+    padding: 40px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 65px;
+    position: absolute;
+    top: 850px;
+    left: -80px;
+  }
+  .btn-2 button span {
+    display: block;
+    font-weight: 500;
+    font-size: 25px;
+  }
+}
