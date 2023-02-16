@@ -30,6 +30,14 @@
     justify-content: space-between;
     align-items: center;
   }
+  .list-item a:hover {
+    background-color: #ff900e;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
   /* banner section */
   .banner-info {
     margin-top: 100px;
@@ -282,7 +290,6 @@
 
 /* responsive for phone */
 
-/* and (max-width: 991px) */
 @media only screen and (max-width: 768px) {
   .header {
     background-color: #fff4e7;
@@ -292,10 +299,7 @@
     width: 50%;
     margin: 0 auto;
   }
-  /* .navbar {
-    display: flex;
-    justify-content: space-between;
-  } */
+
   .navbar h1 {
     font-weight: 700;
     font-size: 45px;
@@ -305,6 +309,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .list-item a {
+    border-bottom: 3px solid #ff900e;
+    margin: 5px 0;
+    color: ;
   }
 
   /* banner sectioin */
